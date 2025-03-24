@@ -1,0 +1,133 @@
+.motivation-paragraph {
+    margin-top: 50px;
+    margin-bottom: 70px;
+    border-radius: 50px;
+    background-color: #2d6cdf;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+.motivation-paragraph h1 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+  }
+
+.motivation-paragraph p {
+    font-size: 1.2em;
+  }
+
+.steps {
+    font-size: 22px;
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 20px;
+  }
+
+  .step {
+    padding: 10px;
+    border-radius: 17px;
+    background-color: #2d6bdf2f;
+    max-width: 300px;
+    text-align: center;
+  }
+
+  .step h2 {
+    color: #2d6cdf;
+  }
+
+.reg-form-container {
+    width: 70%;
+    position: relative;
+    font-size: 22px;
+    display:block;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #e8f3fa80;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align:start;
+}
+
+.form-input{
+
+    border: 1px solid #3a50b1;
+    border-radius: 6px;
+}
+
+#form-select select{
+    padding: 0 38.5px;
+}
+
+#companyName, #industry ,#countEmployee, #revenue, #expenses, #markets, #offices{
+    border-radius: 6px;
+    border: 0.5px solid black;
+}
+
+.reg-title{
+    color: #ffffff;
+    border-radius: 25px;
+    background-color: #2d6cdf;
+    display: flex;
+    text-align:center;
+    position: relative;
+    justify-content: center;
+}
+
+.form-content{
+    padding-top: 80px;
+    justify-content: space-between;
+}
+
+.form-row{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+
+
+.save{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.save button{
+    font-size: 25px;
+    background-color: #90f776;
+    border: 0.15px solid rgba(255, 255, 255, 0.801);
+    border-radius: 25px;
+    height: 65px;
+    width: 90%;
+    max-width: 400px;
+
+}
+
+.save button:hover{
+    background-color: #69da4d;
+}
+
+.info-note {
+    margin-top: 70px;
+    padding: 50px 20px;
+    background-color: #fffbe6;
+    text-align: center;
+    font-size: 1.1em;
+    color: #444;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .info-note strong {
+    color: #2d6cdf;
+  }
+
+.info-note a{
+    text-decoration: none;
+}
+
+.info-note strong:hover{
+    color:#214fa3;
+}
