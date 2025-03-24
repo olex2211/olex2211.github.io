@@ -1,0 +1,120 @@
+.investors-title, section {
+    padding: 40px 20px;
+  }
+
+.investors-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    background-color: #27ae60;
+    color: white;
+    text-align: center;
+  }
+
+.investors-paragraphs-container{
+    justify-content: space-around;
+    flex-direction: column;
+    display: inline-flexbox;
+}
+
+main h2 {
+    color: #27ae60;
+  }
+
+.title-paragraphs {
+    background-color: white;
+    max-width: 85%;
+    margin: 75px auto;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  .progress-bar {
+    background-color: #ddd;
+    border-radius: 20px;
+    margin: 10px 0;
+    overflow: hidden;
+  }
+
+  .progress {
+    height: 24px;
+    padding-left: 10px;
+    line-height: 24px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .it { width: 40%; background-color: #2ecc71; }
+  .green-energy { width: 30%; background-color: #3498db; }
+  .health { width: 20%; background-color: #f39c12; }
+  .real-estate { width: 10%; background-color: #9b59b6; }
+
+
+.our-investors{
+    color: #27ae60;
+    padding-top: 50px;
+    font-size: 70px;
+}
+
+.investors-container {
+    margin: 0 auto;
+    padding-top: 120px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 100px;
+    width: 100%;
+    max-width: 1200px;
+}
+.investor-card {
+    margin: 0;
+    display: block;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease;
+}
+.investor-card:hover {
+    background: rgb(207, 219, 240);
+    border-radius: 5px;
+    transform: scale(1.05);
+}
+.investor-img {
+    height:auto;
+    width:inherit;
+    border-radius: 23px;
+    object-fit: cover;
+}
+.investor-card-text {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.investor-card-text .name{
+    color: #27ae60;
+}
+
+.photo{
+    size: cover; 
+    position: center; 
+    height: 300px;
+    width: 100%; 
+    object-fit: cover;
+}
+
+.name{
+    font-size: 30px;
+}
+
+.spheare, .money-vol, .bio {
+    font-size: 16px;
+    color: #444;
+    text-align: start;
+    padding-top: 10px;
+}

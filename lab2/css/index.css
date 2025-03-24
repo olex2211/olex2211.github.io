@@ -1,0 +1,335 @@
+.motivation-paragraph {
+    margin-top: 50px;
+    margin-bottom: 70px;
+    border-radius: 50px;
+    background-color: #2d6cdf;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+.motivation-paragraph h1 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+  }
+
+.motivation-paragraph p {
+    font-size: 1.2em;
+  }
+
+.steps {
+    font-size: 22px;
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 20px;
+  }
+
+  .step {
+    padding: 10px;
+    border-radius: 17px;
+    background-color: #2d6bdf2f;
+    max-width: 300px;
+    text-align: center;
+  }
+
+  .step h2 {
+    color: #2d6cdf;
+  }
+
+.reg-form-container {
+    width: 70%;
+    position: relative;
+    font-size: 25px;
+    display:block;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 5%;
+    background: #e8f3fa80;
+    border-radius: 17px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align:start;
+}
+
+.form-input{
+    width: 200px;
+    border: 1px solid #3a50b1;
+    border-radius: 17px;
+}
+
+#form-select select{
+    padding: 0 38.5px;
+}
+
+#companyName, #industry ,#countEmployee, #revenue, #expenses, #markets, #offices{
+    border-radius: 6px;
+    border: 0.5px solid black;
+}
+
+.reg-title{
+    color: #ffffff;
+    border-radius: 17px;
+    background-color: #2d6cdf;
+    display: flex;
+    text-align:center;
+    position: relative;
+    justify-content: center;
+}
+
+.form-content{
+    padding-top: 80px;
+    justify-content: space-between;
+}
+
+.form-row{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+
+
+.save{
+  justify-content: center;
+    position: relative;
+    display: flex;
+    padding: 15px;
+    padding-top: 90px;
+    text-align: center;
+}
+
+.save button{
+    font-size: 25px;
+    background-color: #69da4d;
+    border: 0.15px solid rgba(255, 255, 255, 0.801);
+    border-radius: 17px;
+    height: 65px;
+    width: 90%;
+    max-width: 400px;
+
+}
+
+.save button:hover{
+    background-color: #7ceb61;
+}
+
+
+.my-startup-container {
+  padding: 30px;
+  margin: 0 auto;
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  padding-top: 100px;
+  gap: 30px;
+}
+
+.my-startup-card{
+  padding: 5%;
+  margin: 0 auto;
+  width: 60%;
+  display: block;
+  background: #e8f3fa80;
+  border-radius: 17px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease;
+  text-align: start;
+}
+
+.my-startup-card:hover{
+  background: white;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.my-startup-name{
+  color: rgb(45, 108, 223);
+  padding-bottom: 65px; 
+  font-size: 45px;
+  text-align: center;
+}
+
+.my-startup-text-field {
+  gap: 12px;
+  padding-left: 5%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px; 
+  font-size: 25px;
+  color:  rgb(52, 21, 66);
+}
+
+.my-startup-text-field .tittle{
+  color:rgb(30, 71, 147);
+}
+
+.my-startup-income{
+  color:#387e27;
+}
+
+.my-startup-outcome{
+  color:#7e2727;
+}
+
+#startup-details {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.slider-container {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  font-size: 25px;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.slider-container input {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.slider-container span {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.income-slider{
+  color:#387e27;
+}
+
+.expenses-slider{
+  color:#7e2727;
+}
+
+.button-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.modeling-button {
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 17px;
+  border-width: 0 0 4px;
+  box-sizing: border-box; 
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: hidden; 
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: normal; 
+  width: 60%; 
+  word-wrap: break-word; 
+}
+
+.modeling-button:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.modeling-button,
+.modeling-button:focus {
+  user-select: auto;
+}
+
+.modeling-button:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.modeling-button:disabled {
+  cursor: auto;
+}
+
+.modeling-button:active {
+  border-width: 4px 0 0;
+  background: none;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  transform: translateY(50px);
+  white-space: nowrap;
+  z-index: 10;
+}
+
+#competitor-investor-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#competitor-investor-table th, #competitor-investor-table td {
+  font-size: 25px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+#competitor-investor-table th {
+  width: 50%;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.info-note {
+  border-radius: 17px;
+    margin-top: 70px;
+    padding: 50px 20px;
+    background-color: #fffbe6;
+    text-align: center;
+    font-size: 1.1em;
+    color: #444;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .info-note strong {
+    color: #2d6cdf;
+  }
+
+.info-note a{
+    text-decoration: none;
+}
+
+.info-note strong:hover{
+    color:#214fa3;
+}
