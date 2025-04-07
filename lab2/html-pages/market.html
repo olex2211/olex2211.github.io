@@ -27,13 +27,36 @@
             </ul>
         </nav>
 
-        <div class="slogan">
-            <!-- <img src="logo.png" class = "logo"> -->
-            <h2 class = "headerText">Платформа для створення та управління стартапів</h2>
-        </div>
-
     </header>
     <main>
+
+        <div class="slogan">
+            <!-- <img src="logo.png" class = "logo"> -->
+            <h2 class = "headerText">LaunchHub допомагає початківцям і досвідченим підприємцям знайти фінансування для інвестиційних проектів та діючих бізнесів</h2>
+        </div>
+
+        <section class="info">
+            <div class="info__wrap_container">
+              <div class="info__content row">
+                <div class="info__item">
+                  <a href="/ua/startups/" class="info__quantity">8040</a>
+                  <span class="info__text">Стартапів</span>
+                </div>
+                <div class="info__item info__item_framed">
+                  <a href="/ua/projects/" class="info__quantity">17476</a>
+                  <span class="info__text">Інвестиційних проектів</span>
+                </div>
+                <div class="info__item info__item_framed">
+                  <a href="/ua/loans/" class="info__quantity">4592</a>
+                  <span class="info__text">Заявок на отримання позики (кредиту)</span>
+                </div>
+                <div class="info__item info__item_framed">
+                  <a href="/ua/sale/" class="info__quantity">6260</a>
+                  <span class="info__text">Пропозицій продажу бізнесу (частки)</span>
+                </div>
+              </div>
+            </div>
+          </section>
 
         <div class="market-title">
             <h1>Аналіз ринку</h1>
@@ -42,8 +65,8 @@
         
         <div class="analys-container">
           <section class="trends">
-            <h2>🔥 Актуальні ринкові тренди</h2>
-            <ul>
+            <h2 class="analys-container-h2">🔥 Актуальні ринкові тренди</h2>
+            <ul class="analys-container-list">
               <li>Штучний інтелект і автоматизація процесів</li>
               <li>Дистанційна робота та онлайн-сервіси</li>
               <li>Еко-продукти та сталі рішення</li>
@@ -52,8 +75,8 @@
           </section>
           
           <section class="opportunities">
-            <h2>🚀 Можливості для розвитку</h2>
-            <ul>
+            <h2 class="analys-container-h2">🚀 Можливості для розвитку</h2>
+            <ul class="analys-container-list">
               <li>Вихід на нові регіональні ринки</li>
               <li>Інтеграція з API популярних сервісів</li>
               <li>Співпраця з університетами та науковцями</li>
@@ -62,7 +85,7 @@
           </section>
           
           <section class="trends">
-            <h2>📊 Популярність сфер для інвесторів</h2>
+            <h2 class="analys-container-h2">📊 Популярність сфер для інвесторів</h2>
             <div>Технології</div>
             <div class="progress-bar"><div class="progress it">45%</div></div>
         
@@ -77,7 +100,7 @@
         </section>
           
           <section class="market-analysis">
-            <h2>📈 Загальний аналіз ринку</h2>
+            <h2 class="analys-container-h2">📈 Загальний аналіз ринку</h2>
             <p>
               Протягом останнього року спостерігається зростання інвестицій у цифрові рішення та хмарні технології.
               Попит на інноваційні стартапи стабільно високий, особливо у сфері AI та медичних технологій.
@@ -185,12 +208,42 @@
             
         </div>
     </main>
-    <footer>
-        <p class = "corp">© 2025 Платформа стартапів</p>
-        <p class = "contact">Адреса: вул. Кульпарківська 95 м. Львів</p>
-        <p class = "contact">Телефон: +380 44 123 4567</p>
-        <p class = "contact">Email: support@startups.com</p>
+    <footer class="footer">
+      <div class="footer__wrap container">
+        <div class="footer__content row">
+          <div class="footer__topSection bottomNav">
+            <div class="bottomNav__listsWrap">
+              <ul class="bottomNav__list"><li class="bottomNav__listItem"><div class="bottomNav__itemLink bottomNav__itemLink_accent">Інвестору</div></li><li class="bottomNav__listItem">      <a href="#" class="bottomNav__itemLink ">Каталоги</a>
+        </li><li class="bottomNav__listItem">      <a href="market.html" class="bottomNav__itemLink ">Стартапи</a>
+        </li><li class="bottomNav__listItem">      <a href="market.html" class="bottomNav__itemLink ">Інвестпроекти</a>
+        </li></ul><ul class="bottomNav__list"><li class="bottomNav__listItem"><div class="bottomNav__itemLink bottomNav__itemLink_accent">Підприємцю</div></li><li class="bottomNav__listItem">      <a href="investors.html" class="bottomNav__itemLink ">Знайти Інвестиції</a>
+        </li><li class="bottomNav__listItem">      <a href="market.html" class="bottomNav__itemLink ">Продати Бізнес</a>
+        </li><li class="bottomNav__listItem">      <a href="investors.html" class="bottomNav__itemLink ">Запити Інвесторів</a>
+        </li></ul>          </ul></div>
+          </div>
+      </div>
+      <div class="footer__bottomSection">
+          <div class="footer__bottomContent">
+            <ul class="footer__countries">
+                            <li class="footer__countryItem">
+                  <a href="#" class="footer__countryLink">США</a>
+                </li>
+                              <li class="footer__countryItem">
+                  <a href="#" class="footer__countryLink">Індія</a>
+                </li>
+                              <li class="footer__countryItem">
+                  <a href="#" class="footer__countryLink">Польща</a>
+                </li>
+                              <li class="footer__countryItem">
+                  <a href="#" class="footer__countryLink">Казахстан</a>
+                </li>
+                          </ul>
+                    </div>
+        </div>
+      </div>
     </footer>
+
     <script src="..\script\market.js"></script>
+    <script src="..\script\base.js"></script>
 </body>
 </html>

@@ -26,12 +26,12 @@
                 <li><a href="investors.html">Інвестори</a></li>
             </ul>
         </nav>
-        <div class="slogan">
-            <!-- <img src="logo.png" class = "logo"> -->
-            <h2 class = "headerText">Платформа для створення та управління стартапів</h2>
-        </div>
     </header>
     <main>
+        <div class="slogan">
+            <!-- <img src="logo.png" class = "logo"> -->
+            <h2 class = "headerText">LaunchHub допомагає початківцям і досвідченим підприємцям знайти фінансування для інвестиційних проектів та діючих бізнесів</h2>
+        </div>
         <div class="motivation-paragraph">
             <h1>Зроби свій перший крок до успішного бізнесу</h1>
             <p>Не зволікай — твій стартап починається просто зараз!</p>
@@ -161,18 +161,19 @@
             </div>    
         </section>
     </div>
-
-    <table id="competitor-investor-table">
-        <thead>
-          <tr>
-            <th>Назва компанії</th>
-            <th>Ім'я інвестора</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- Дані таблиці будуть додаватися через JavaScript -->
-        </tbody>
-    </table>
+    <div class = "table">
+        <table id="competitor-investor-table">
+            <thead>
+            <tr>
+                <th>Назва компанії</th>
+                <th>Ім'я інвестора</th>
+            </tr>
+            </thead>
+            <tbody>
+            <!-- Дані таблиці будуть додаватися через JavaScript -->
+            </tbody>
+        </table>
+    </div>
 
     <section class="info-note">
         <p>
@@ -182,12 +183,42 @@
       </section>
 
 </main>
-    <footer>
-        <p class = "corp">© 2025 Платформа стартапів</p>
-        <p class = "contact">Адреса: вул. Кульпарківська 95 м. Львів</p>
-        <p class = "contact">Телефон: +380 44 123 4567</p>
-        <p class = "contact">Email: support@startups.com</p>
-    </footer>
-    <script src="..\script\script.js"></script>
+    <footer class="footer">
+        <div class="footer__wrap container">
+          <div class="footer__content row">
+            <div class="footer__topSection bottomNav">
+              <div class="bottomNav__listsWrap">
+                <ul class="bottomNav__list"><li class="bottomNav__listItem"><div class="bottomNav__itemLink bottomNav__itemLink_accent">Інвестору</div></li><li class="bottomNav__listItem">      <a href="#" class="bottomNav__itemLink ">Каталоги</a>
+          </li><li class="bottomNav__listItem">      <a href="market.html" class="bottomNav__itemLink ">Стартапи</a>
+          </li><li class="bottomNav__listItem">      <a href="market.html" class="bottomNav__itemLink ">Інвестпроекти</a>
+          </li></ul><ul class="bottomNav__list"><li class="bottomNav__listItem"><div class="bottomNav__itemLink bottomNav__itemLink_accent">Підприємцю</div></li><li class="bottomNav__listItem">      <a href="investors.html" class="bottomNav__itemLink ">Знайти Інвестиції</a>
+          </li><li class="bottomNav__listItem">      <a href="market.html" class="bottomNav__itemLink ">Продати Бізнес</a>
+          </li><li class="bottomNav__listItem">      <a href="investors.html" class="bottomNav__itemLink ">Запити Інвесторів</a>
+          </li></ul>          </ul></div>
+            </div>
+        </div>
+        <div class="footer__bottomSection">
+            <div class="footer__bottomContent">
+              <ul class="footer__countries">
+                              <li class="footer__countryItem">
+                    <a href="#" class="footer__countryLink">США</a>
+                  </li>
+                                <li class="footer__countryItem">
+                    <a href="#" class="footer__countryLink">Індія</a>
+                  </li>
+                                <li class="footer__countryItem">
+                    <a href="#" class="footer__countryLink">Польща</a>
+                  </li>
+                                <li class="footer__countryItem">
+                    <a href="#" class="footer__countryLink">Казахстан</a>
+                  </li>
+                            </ul>
+                      </div>
+          </div>
+        </div>
+      </footer>
+
+      <script src="..\script\script.js"></script>
+      <script src="..\script\base.js"></script>
 </body>
 </html>

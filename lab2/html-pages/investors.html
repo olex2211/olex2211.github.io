@@ -25,13 +25,14 @@
                 <li><a href="investors.html">Інвестори</a></li>
             </ul>
         </nav>
-        <div class="slogan">
-            <!-- <img src="images\logo.png" class = "logo"> -->
-            <h2 class = "headerText">Платформа для створення та управління стартапів</h2>
-        </div>
     </header>
     
     <main>
+        <div class="slogan">
+            <!-- <img src="logo.png" class = "logo"> -->
+            <h2 class = "headerText">LaunchHub допомагає початківцям і досвідченим підприємцям знайти фінансування для інвестиційних проектів та діючих бізнесів</h2>
+        </div>
+
         <div class="investors-title">
             <h1>Потенційні інвестори</h1>
             <p>Дізнайся, хто може інвестувати в твій стартап, і як це зробити ефективно</p>
@@ -39,7 +40,7 @@
           
         <div class="investors-paragraphs-container">
           <section class="title-paragraphs">
-            <h2>👤 Хто такі наші інвестори</h2>
+            <h2 class="title-paragraphs-h2">👤 Хто такі наші інвестори</h2>
             <p>
               Наші інвестори — це венчурні фонди, приватні особи, а також корпорації, зацікавлені в інноваціях.
               Вони шукають стартапи з потенціалом швидкого зростання, сильною командою та зрозумілою бізнес-моделлю.
@@ -47,8 +48,8 @@
           </section>
           
           <section class="title-paragraphs">
-            <h2>📌 Критерії вибору стартапу</h2>
-            <ul>
+            <h2 class="title-paragraphs-h2">📌 Критерії вибору стартапу</h2>
+            <ul class="title-paragraphs-list">
               <li>Наявність MVP або працюючого продукту</li>
               <li>Чітке розуміння цільового ринку</li>
               <li>Команда з досвідом</li>
@@ -74,8 +75,8 @@
           </section> -->
           
           <section class="title-paragraphs">
-            <h2>💡 Поради для залучення інвестора</h2>
-            <ul>
+            <h2 class="title-paragraphs-h2">💡 Поради для залучення інвестора</h2>
+            <ul class="title-paragraphs-list">
               <li>Підготуй короткий і чіткий pitch deck</li>
               <li>Розроби демонстрацію продукту</li>
               <li>Знай інвестора: досліди його попередні інвестиції</li>
@@ -84,12 +85,12 @@
           </section>
 
         </div>
-        <h1 class="our-investors">Наші інвестори</h1>
+        <!-- <h1 class="our-investors">Наші інвестори</h1> -->
         <div class="investors-container">
             <section class="investor-card">
                 <img src="..\images\investor1.jpg" class="photo">
                 <div class="investor-card-text">
-                    <span class="name"><h3>Олександра Гриневич</h3></span>
+                    <span class="name"><h3>Олександр Гриневич</h3></span>
                     <span class="spheare">Сфера: Технологічні стартапи</span>
                     <span class="money-vol">Капітал: 2 500 000 $</span>
                     <span class="bio">Про себе: Підтримую перспективні інноваційні проєкти у сфері штучного інтелекту та автоматизації.</span>
@@ -99,7 +100,7 @@
             <section class="investor-card">
                 <img src="..\images\investor2.jpg" class="photo">
                 <div class="investor-card-text">
-                    <span class="name"><h3>Олександра Гриневич</h3></span>
+                    <span class="name"><h3>Марія Попадевич</h3></span>
                     <span class="spheare">Сфера: Екологічні рішення</span>
                     <span class="money-vol">Капітал: 1 800 000 $</span>
                     <span class="bio">Про себе: Інвестую в екологічні технології, що допомагають зберігати природу та розвивати сталий бізнес.</span>
@@ -119,7 +120,7 @@
             <section class="investor-card">
                 <img src="..\images\investor4.jpg" class="photo">
                 <div class="investor-card-text">
-                    <span class="name"><h3>Дарина Коваль</h3></span>
+                    <span class="name"><h3>Павло Іванчишин</h3></span>
                     <span class="spheare">Сфера: Мода та дизайн</span>
                     <span class="money-vol">Капітал: 1 500 000 $</span>
                     <span class="bio">Про себе: Підтримую креативних дизайнерів та бренди, що створюють унікальні та екологічні колекції.</span>
@@ -129,12 +130,42 @@
         </div>
         
     </main>
-    <footer>
-        <p class = "corp">© 2025 Платформа стартапів</p>
-        <p class = "contact">Адреса: вул. Кульпарківська 95 м. Львів</p>
-        <p class = "contact">Телефон: +380 44 123 4567</p>
-        <p class = "contact">Email: support@startups.com</p>
+    <footer class="footer">
+      <div class="footer__wrap container">
+        <div class="footer__content row">
+          <div class="footer__topSection bottomNav">
+            <div class="bottomNav__listsWrap">
+              <ul class="bottomNav__list"><li class="bottomNav__listItem"><div class="bottomNav__itemLink bottomNav__itemLink_accent">Інвестору</div></li><li class="bottomNav__listItem">      <a href="#" class="bottomNav__itemLink ">Каталоги</a>
+        </li><li class="bottomNav__listItem">      <a href="market.html" class="bottomNav__itemLink ">Стартапи</a>
+        </li><li class="bottomNav__listItem">      <a href="market.html" class="bottomNav__itemLink ">Інвестпроекти</a>
+        </li></ul><ul class="bottomNav__list"><li class="bottomNav__listItem"><div class="bottomNav__itemLink bottomNav__itemLink_accent">Підприємцю</div></li><li class="bottomNav__listItem">      <a href="investors.html" class="bottomNav__itemLink ">Знайти Інвестиції</a>
+        </li><li class="bottomNav__listItem">      <a href="market.html" class="bottomNav__itemLink ">Продати Бізнес</a>
+        </li><li class="bottomNav__listItem">      <a href="investors.html" class="bottomNav__itemLink ">Запити Інвесторів</a>
+        </li></ul>          </ul></div>
+          </div>
+      </div>
+      <div class="footer__bottomSection">
+          <div class="footer__bottomContent">
+            <ul class="footer__countries">
+                            <li class="footer__countryItem">
+                  <a href="#" class="footer__countryLink">США</a>
+                </li>
+                              <li class="footer__countryItem">
+                  <a href="#" class="footer__countryLink">Індія</a>
+                </li>
+                              <li class="footer__countryItem">
+                  <a href="#" class="footer__countryLink">Польща</a>
+                </li>
+                              <li class="footer__countryItem">
+                  <a href="#" class="footer__countryLink">Казахстан</a>
+                </li>
+                          </ul>
+                    </div>
+        </div>
+      </div>
     </footer>
+
     <script src="..\script\investors.js"></script>
+    <script src="..\script\base.js"></script>
 </body>
 </html>

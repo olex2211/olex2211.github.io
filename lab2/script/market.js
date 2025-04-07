@@ -28,7 +28,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const educationPercentage = (sphereCounts["Освіта"] / totalStartups) * 100;
 
     // Оновлюємо відсотки в DOM
-    document.querySelector('.progress.it').style.width = `${technologyPercentage}%`;
+    try {
+        // document.querySelector('.progress.it').style.width = `${technologyPercentage}%`;
     document.querySelector('.progress.it').textContent = `${Math.round(technologyPercentage)}%`;
 
     document.querySelector('.progress.healthcare').style.width = `${healthcarePercentage}%`;
@@ -39,4 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     document.querySelector('.progress.education').style.width = `${educationPercentage}%`;
     document.querySelector('.progress.education').textContent = `${Math.round(educationPercentage)}%`;
+    } catch (error) {
+        console.log(error);
+    }
 });

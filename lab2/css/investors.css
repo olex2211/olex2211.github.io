@@ -1,28 +1,35 @@
-.investors-title, section {
-    padding: 40px 20px;
-  }
 
 .investors-title {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    border-radius: 50px;
-    background-color: #27ae60;
-    color: white;
-    text-align: center;
+  margin: 80px auto;
+  padding: 15px;
+  color: rgb(104, 130, 54);
+  text-align: center;
+  font-size: 17px;
   }
 
 .investors-paragraphs-container{
+    width: 100%;
+    background-color: rgb(104, 130, 54);
+    background-image: url("../images/map.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% ; 
     justify-content: space-around;
     flex-direction: column;
     display: inline-flexbox;
 }
 
-main h2 {
-    color: #27ae60;
-  }
+.title-paragraphs-h2{
+  color:rgb(104, 130, 54);
+}
+
+.title-paragraphs-list{
+  list-style: none;
+}
 
 .title-paragraphs {
-    background-color: white;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.971);
     max-width: 85%;
     margin: 75px auto;
     border-radius: 10px;
@@ -30,9 +37,6 @@ main h2 {
     box-shadow: 0 2px 8px rgba(0,0,0,0.06);
   }
 
-  ul {
-    padding-left: 20px;
-  }
 
   .progress-bar {
     background-color: #ddd;
@@ -56,32 +60,32 @@ main h2 {
 
 
 .our-investors{
-    color: #27ae60;
-    padding-top: 50px;
-    font-size: 70px;
+    margin: 80px auto;
+    color: rgb(104, 130, 54);
+    font-size: 25px;
 }
 
 .investors-container {
-    margin: 0 auto;
+    margin: 40px auto;
     padding-top: 120px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 100px;
-    width: 100%;
+    width: 70%;
     max-width: 1200px;
 }
 .investor-card {
     margin: 0;
     display: block;
     background: white;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.5s ease;
 }
 .investor-card:hover {
-    background: rgb(207, 219, 240);
+    background: rgba(103, 130, 54, 0.199);
     border-radius: 5px;
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 .investor-img {
     height:auto;
@@ -97,7 +101,7 @@ main h2 {
 }
 
 .investor-card-text .name{
-    color: #27ae60;
+    color: rgb(104, 130, 54);;
 }
 
 .photo{

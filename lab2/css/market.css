@@ -1,35 +1,74 @@
-.market-title, section {
-    padding: 40px 20px;
-}
+.info {
+    flex-direction: row;
+    background-color: #fafafa;
+    padding: 20px 0;
+  }
+  
+  .info__content.row {
+    display: flex;
+    flex-direction: row;          /* Горизонтальне розташування */
+    justify-content: center;      /* Вирівнювання по центру */
+    gap: 40px;                    /* Відступи між блоками */
+    flex-wrap: wrap;              /* Щоб адаптувалось на мобілках */
+  }
+
+  .info__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .info__quantity {
+    font-size: 50px;
+    font-weight: 700;
+    color: #688236;
+    margin-bottom: 5px;
+    text-decoration:none;
+  }
+  
+  .info__text {
+    font-size: 17px;
+    color: #474747;
+  }
+
 
 .market-title {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    background-color: #2d6cdf;
-    border-radius: 50px;
-    color: white;
-    text-align: center;
-}
-
-main h2 {
-    color: #2d6cdf;
+  margin: 80px auto;
+  padding: 15px;
+  color: rgb(104, 130, 54);
+  text-align: center;
+  font-size: 17px;
 }
 
 .analys-container{
+    width: 100%;
+    background-color: rgb(104, 130, 54);
+    background-image: url("../images/map.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% ; 
     justify-content: space-around;
     flex-direction: column;
     display: inline-flexbox;
 }
 
 .trends, .opportunities, .market-analysis {
-    background-color: white;
-    margin: 75px auto;
-    max-width: 85%;
-    border-radius: 10px;
+    font-size: 17px;
+    background-color: rgba(255, 255, 255, 0.971);
+    margin: 40px auto;
+    max-width: 70%;
+    border-radius: 5px;
     padding: 30px;
     box-shadow: 0 0 10px rgba(0,0,0,0.05);
   }
 
+.analys-container-h2{
+  color:rgb(104, 130, 54);
+}
+
+.analys-container-list{
+  list-style: none;
+}
   .progress-bar {
     background-color: #e0e0e0;
     border-radius: 20px;
@@ -81,7 +120,8 @@ main h2 {
 }
 
 .market-container{
-    width: 100%;
+    width: 70%;
+    margin: 40px auto;
     display:grid;
     padding-top: 100px;
     grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
@@ -91,7 +131,7 @@ main h2 {
 .market-card{
     display: block;
     background: white;
-    border-radius: 13px;
+    border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     /* transition: transform 0.5s ease, box-shadow 0.3s ease; */
     transition: all 0.5s ease;
@@ -99,9 +139,9 @@ main h2 {
 }
 
 .market-card:hover{
-    background: rgb(207, 219, 240);
-    border-radius: 25px;
-    transform: translateY(-15px);
+    background: rgba(103, 130, 54, 0.199);
+    border-radius: 10px;
+    transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -111,7 +151,7 @@ main h2 {
 
 .market-company-name{
     font-size: 35px;
-    color: rgb(45, 108, 223);
+    color: rgb(104, 130, 54);
 }
 
 .market-spheare{

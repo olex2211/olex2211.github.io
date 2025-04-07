@@ -1,51 +1,51 @@
 .motivation-paragraph {
-    margin-top: 50px;
-    margin-bottom: 70px;
-    border-radius: 50px;
-    background-color: #2d6cdf;
-    color: white;
-    padding: 50px 20px;
+    margin: 40px auto;
+    padding: 15px;
+    color: rgb(104, 130, 54);
     text-align: center;
   }
 
 .motivation-paragraph h1 {
-    font-size: 2.8em;
+    font-size: 30px;
     margin-bottom: 10px;
   }
 
 .motivation-paragraph p {
-    font-size: 1.2em;
+    font-size: 22px;
   }
 
 .steps {
-    font-size: 22px;
+  margin: 40px;
+    min-width: 220px;
+    font-size: 20px;
     display: flex;
     justify-content: space-around;
-    padding: 60px 20px;
+    padding: 40px auto;
   }
 
   .step {
     padding: 10px;
     border-radius: 17px;
-    background-color: #2d6bdf2f;
+    background-color: rgba(103, 130, 54, 0.199);
     max-width: 300px;
     text-align: center;
   }
 
   .step h2 {
-    color: #2d6cdf;
+    color: rgb(104, 130, 54);
   }
 
 .reg-form-container {
+    min-width: 220px;
+    color:rgb(104, 130, 54);
     width: 70%;
-    position: relative;
     font-size: 25px;
     display:block;
     max-width: 800px;
-    margin: 40px auto;
-    padding: 5%;
-    background: #e8f3fa80;
-    border-radius: 17px;
+    margin: 80px auto;
+    padding: 20px 5%;
+    background: #ffffff;
+    border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     text-align:start;
 }
@@ -53,7 +53,7 @@
 .form-input{
     width: 200px;
     border: 1px solid #3a50b1;
-    border-radius: 17px;
+    border-radius: 5px;
 }
 
 #form-select select{
@@ -61,27 +61,25 @@
 }
 
 #companyName, #industry ,#countEmployee, #revenue, #expenses, #markets, #offices{
-    border-radius: 6px;
+    border-radius: 5px;
     border: 0.5px solid black;
 }
 
 .reg-title{
-    color: #ffffff;
-    border-radius: 17px;
-    background-color: #2d6cdf;
+  font-size: 25px;
+    color: rgb(104, 130, 54);
     display: flex;
     text-align:center;
-    position: relative;
     justify-content: center;
 }
 
 .form-content{
-    padding-top: 80px;
+    padding-top: 30px;
     justify-content: space-between;
 }
 
 .form-row{
-    padding-top: 20px;
+    padding-top: 30px;
     display: flex;
     justify-content: space-between;
     text-align: left;
@@ -91,16 +89,16 @@
 
 .save{
   justify-content: center;
-    position: relative;
     display: flex;
     padding: 15px;
-    padding-top: 90px;
+    padding-top: 50px;
     text-align: center;
 }
 
 .save button{
+  color: #ffffff;
     font-size: 25px;
-    background-color: #69da4d;
+    background-color: rgb(104, 130, 54);
     border: 0.15px solid rgba(255, 255, 255, 0.801);
     border-radius: 17px;
     height: 65px;
@@ -110,27 +108,28 @@
 }
 
 .save button:hover{
-    background-color: #7ceb61;
+    background-color: rgb(79, 102, 34);
 }
 
 
 .my-startup-container {
-  padding: 30px;
+  padding: 20px 0px;
   margin: 0 auto;
   width: 100%;
   display: none;
   flex-direction: column;
-  padding-top: 100px;
   gap: 30px;
 }
 
 .my-startup-card{
-  padding: 5%;
-  margin: 0 auto;
-  width: 60%;
+  max-width: 800px;
+  padding: 20px 5%;
+  margin: 20px auto;
+  min-width: 220px;
+  width: 70%;
   display: block;
-  background: #e8f3fa80;
-  border-radius: 17px;
+  background: #ffffff;
+  border-radius: 5px;
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
   transition: all 0.5s ease;
   text-align: start;
@@ -138,13 +137,12 @@
 
 .my-startup-card:hover{
   background: white;
-  border-radius: 25px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .my-startup-name{
-  color: rgb(45, 108, 223);
-  padding-bottom: 65px; 
+  color: rgb(104, 130, 54);
+  padding-bottom: 30px; 
   font-size: 45px;
   text-align: center;
 }
@@ -153,14 +151,13 @@
   gap: 12px;
   padding-left: 5%;
   display: flex;
-  align-items: center;
-  margin-bottom: 15px; 
+  padding-top: 30px;
   font-size: 25px;
-  color:  rgb(52, 21, 66);
+  color:  rgb(0, 0, 0);
 }
 
 .my-startup-text-field .tittle{
-  color:rgb(30, 71, 147);
+  color:rgb(104, 130, 54);
 }
 
 .my-startup-income{
@@ -187,6 +184,7 @@
 }
 
 .slider-container input {
+  accent-color: rgb(104, 130, 54);
   margin: 0 auto;
   width: 100%;
 }
@@ -196,85 +194,27 @@
   font-size: 16px;
 }
 
-.income-slider{
-  color:#387e27;
-}
-
-.expenses-slider{
-  color:#7e2727;
-}
-
 .button-wrapper {
-  position: relative;
-  display: flex;
   justify-content: center;
-  padding-top: 60px;
+    display: flex;
+    padding: 15px;
+    padding-top: 90px;
+    text-align: center;
 }
 
 .modeling-button {
-  appearance: button;
-  background-color: #1899D6;
-  border: solid transparent;
-  border-radius: 17px;
-  border-width: 0 0 4px;
-  box-sizing: border-box; 
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  font-family: din-round,sans-serif;
-  font-size: 15px;
-  font-weight: 700;
-  letter-spacing: .8px;
-  line-height: 20px;
-  margin: 0;
-  outline: none;
-  overflow: hidden; 
-  padding: 13px 16px;
-  text-align: center;
-  text-transform: uppercase;
-  touch-action: manipulation;
-  transform: translateZ(0);
-  transition: filter .2s;
-  user-select: none;
-  -webkit-user-select: none;
-  vertical-align: middle;
-  white-space: normal; 
-  width: 60%; 
-  word-wrap: break-word; 
+  color: #ffffff;
+    font-size: 25px;
+    background-color: rgb(104, 130, 54);
+    border: 0.15px solid rgba(255, 255, 255, 0.801);
+    border-radius: 17px;
+    height: 65px;
+    width: 90%;
+    max-width: 400px;
 }
 
-.modeling-button:after {
-  background-clip: padding-box;
-  background-color: #1CB0F6;
-  border: solid transparent;
-  border-radius: 16px;
-  border-width: 0 0 4px;
-  bottom: -4px;
-  content: "";
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: -1;
-}
-
-.modeling-button,
-.modeling-button:focus {
-  user-select: auto;
-}
-
-.modeling-button:hover:not(:disabled) {
-  filter: brightness(1.1);
-  -webkit-filter: brightness(1.1);
-}
-
-.modeling-button:disabled {
-  cursor: auto;
-}
-
-.modeling-button:active {
-  border-width: 4px 0 0;
-  background: none;
+.modeling-button:hover{
+  background-color: rgb(79, 102, 34);
 }
 
 .tooltip {
@@ -287,43 +227,64 @@
   visibility: hidden;
   opacity: 0;
   transition: opacity 0.2s ease;
-  transform: translateY(50px);
+  transform: translateY(64px);
   white-space: nowrap;
   z-index: 10;
 }
 
-#competitor-investor-table {
+.table{
+  width: 70%;
+  align-items: center;
+  margin: 20px auto;
   width: 100%;
+}
+
+#competitor-investor-table {
+  border-radius: 17px;
+  min-width: 220px;
+  max-width: 800px;
+  width: 70%;
+  margin: 0 auto;
   border-collapse: collapse;
 }
 
 #competitor-investor-table th, #competitor-investor-table td {
+  font-weight: 500;
+  background-color: #ffffff;
   font-size: 25px;
   border: 1px solid #ddd;
-  padding: 10px;
+  padding: 10px 5%;
   text-align: left;
 }
 
 #competitor-investor-table th {
+  color: rgb(104, 130, 54);
   width: 50%;
   text-align: center;
-  background-color: #f4f4f4;
 }
 
 .info-note {
-  border-radius: 17px;
-    margin-top: 70px;
-    padding: 50px 20px;
-    background-color: #fffbe6;
+  padding: 80px 170px;
+  background-color: rgb(104, 130, 54);
+  width: 100%;
+  background-image: url("../images/map2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  display:flex;
+  color: #ffffff;
+  font-size: 20px;
+
+  min-width: 160px;
+  margin: 0 auto;
+    margin-top: 50px;
+    padding: 5%;
     text-align: center;
-    font-size: 1.1em;
-    color: #444;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
   }
   
   .info-note strong {
-    color: #2d6cdf;
+    color: #cdcdcd;
   }
 
 .info-note a{
@@ -331,5 +292,5 @@
 }
 
 .info-note strong:hover{
-    color:#214fa3;
+    color:rgb(255, 255, 255);
 }
