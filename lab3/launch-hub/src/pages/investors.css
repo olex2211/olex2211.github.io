@@ -1,0 +1,137 @@
+.investors-title {
+  margin: 80px auto;
+  padding: 15px;
+  color: rgb(104, 130, 54);
+  text-align: center;
+  font-size: 17px;
+}
+
+.investors-paragraphs-container {
+  padding: 30px;
+  width: 100%;
+  background-color: rgb(104, 130, 54);
+  background-image: url("./map.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  justify-content: space-around;
+  flex-direction: column;
+  display: inline-flexbox;
+}
+
+.title-paragraphs-h2 {
+  color: rgb(104, 130, 54);
+}
+
+.title-paragraphs-list {
+  list-style: none;
+}
+
+.title-paragraphs {
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.971);
+  max-width: 85%;
+  margin: 75px auto;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.progress-bar {
+  background-color: #ddd;
+  border-radius: 20px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.progress {
+  height: 24px;
+  padding-left: 10px;
+  line-height: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+.it {
+  width: 40%;
+  background-color: #2ecc71;
+}
+.green-energy {
+  width: 30%;
+  background-color: #3498db;
+}
+.health {
+  width: 20%;
+  background-color: #f39c12;
+}
+.real-estate {
+  width: 10%;
+  background-color: #9b59b6;
+}
+
+.our-investors {
+  margin: 80px auto;
+  color: rgb(104, 130, 54);
+  font-size: 25px;
+}
+
+.investors-container {
+  margin: 40px auto;
+  padding-top: 120px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 100px;
+  width: 70%;
+  max-width: 1200px;
+}
+.investor-card {
+  margin: 0;
+  display: block;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s ease;
+}
+.investor-card:hover {
+  background: rgba(103, 130, 54, 0.144);
+  border-radius: 10px;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+.investor-img {
+  height: auto;
+  width: inherit;
+  border-radius: 23px;
+  object-fit: cover;
+}
+.investor-card-text {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.investor-card-text .name {
+  color: rgb(104, 130, 54);
+}
+
+.photo {
+  size: cover;
+  position: center;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 30px;
+}
+
+.spheare,
+.money-vol,
+.bio {
+  font-size: 16px;
+  color: #444;
+  text-align: start;
+  padding-top: 10px;
+}

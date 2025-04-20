@@ -1,0 +1,180 @@
+.info {
+    flex-direction: row;
+    background-color: #fafafa;
+    padding: 20px 0;
+  }
+  
+  .info__content.row {
+    display: flex;
+    flex-direction: row;          /* Горизонтальне розташування */
+    justify-content: center;      /* Вирівнювання по центру */
+    gap: 40px;                    /* Відступи між блоками */
+    flex-wrap: wrap;              /* Щоб адаптувалось на мобілках */
+  }
+
+  .info__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .info__quantity {
+    font-size: 50px;
+    font-weight: 700;
+    color: #688236;
+    margin-bottom: 5px;
+    text-decoration:none;
+  }
+  
+  .info__text {
+    font-size: 17px;
+    color: #474747;
+  }
+
+
+.market-title {
+  margin: 80px auto;
+  padding: 15px;
+  color: rgb(104, 130, 54);
+  text-align: center;
+  font-size: 17px;
+}
+
+.analys-container{
+    padding: 30px;
+    width: 100%;
+    background-color: rgb(104, 130, 54);
+    background-image: url("./map.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% ; 
+    justify-content: space-around;
+    flex-direction: column;
+    display: inline-flexbox;
+}
+
+.trends, .opportunities, .market-analysis {
+    font-size: 17px;
+    background-color: rgba(255, 255, 255, 0.971);
+    margin: 40px auto;
+    max-width: 70%;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  }
+
+.analys-container-h2{
+  color:rgb(104, 130, 54);
+}
+
+.analys-container-list{
+  list-style: none;
+}
+  .progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 10px 0;
+  }
+
+  .progress {
+    height: 24px;
+    line-height: 24px;
+    padding-left: 10px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .it { width: 45%; background-color: #4caf50; }
+  .healthcare { width: 30%; background-color: #2196f3; }
+  .education { width: 10%; background-color: #ff9800; }
+  .finance { width: 15%; background-color: #9c27b0; }
+
+  ul {
+    padding-left: 20px;
+  }
+
+
+
+
+.trends-and-opportunities{
+    margin-left: 28px;
+    margin-top: 90px;
+    display: block;
+    text-align: start;
+}
+
+.trend-title{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.trend, .opportunities{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.opportunities-tittle{
+    color: #4f3775;
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.filters-container{
+    margin: 80px auto;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-Wrap: wrap
+}
+
+.filter-button{
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    height: 45px;
+}
+
+.market-container{
+    width: 70%;
+    margin: 40px auto;
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+    gap: 30px;
+}
+
+.market-card{
+    display: block;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    /* transition: transform 0.5s ease, box-shadow 0.3s ease; */
+    transition: all 0.5s ease;
+    text-align: start;
+}
+
+.market-card:hover{
+    background: rgba(103, 130, 54, 0.144);
+    border-radius: 10px;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.market-card-text{
+    margin: 10px;
+}
+
+.market-company-name{
+    font-size: 35px;
+    color: rgb(104, 130, 54);
+}
+
+.market-spheare{
+    margin-top: 5px;
+ }
+ .company-size, .market-zbyt, .finance-score{
+     margin-top: 15px;
+ }
